@@ -76,7 +76,7 @@ h1.temp {
   position: relative;
 }
 
-.weather.loading:after {
+.weather.loading:after {             //after event happen it adds changes
   visibility: visible;
   content: "Loading...";
   color: white;
